@@ -1,0 +1,60 @@
+.brand{
+    font-size: large;
+    font-weight: 900;
+    color: blue !important;
+}
+#brand2{
+    color: brown !important;
+}
+.nav_item{
+    border-bottom:1px solid transparent;
+    cursor: pointer;
+}
+.nav_item:hover{
+    border-bottom: 1px solid brown !important;
+    font-weight: bold;
+}
+.home-banner{
+    background-image: url("./img/bread_background.jpg");
+    border: 1px solid rebeccapurple;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brww{
+    height: 90vh;
+}
+.white{
+    color: #ffffff;
+}
+.bread-font{
+    font-family: Raleway,sans-serif;
+}
+.bakery_logo {
+    width: 100px;
+    height: 100px;
+}
+.view-product {
+    width: 236px;
+    height: 66px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.view-product:hover {
+    background-color: white;
+    color: black;
+}
+.bread-desc{
+    font-size: 16px;
+    font-family:'Open Sans',sans-serif;
+    color: wheat;
+    text-align: center;
+}
